@@ -1,5 +1,5 @@
 {
-  "name": "draft-js",
+  "name": "blink-draft-js",
   "description": "A React framework for building text editors.",
   "version": "0.11.0",
   "keywords": [
@@ -9,7 +9,7 @@
     "richtext"
   ],
   "homepage": "http://draftjs.org/",
-  "bugs": "https://github.com/facebook/draft-js/issues",
+  "bugs": "https://github.com/awehook/draft-js/issues",
   "files": [
     "dist/",
     "lib/",
@@ -17,7 +17,7 @@
   ],
   "main": "lib/Draft.js",
   "style": "dist/Draft.css",
-  "repository": "facebook/draft-js",
+  "repository": "awehook/draft-js",
   "license": "MIT",
   "scripts": {
     "prepublish": "npm run build",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "fbjs": "^1.0.0",
-    "immutable": "~3.7.4",
+    "immutable": "^4.0.0-rc.12",
     "object-assign": "^4.1.0"
   },
   "peerDependencies": {

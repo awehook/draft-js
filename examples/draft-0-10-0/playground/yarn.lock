@@ -2411,10 +2411,10 @@ draft-convert@^2.0.1:
     invariant "^2.2.1"
 
 "draft-js@file:../../..":
-  version "0.10.5"
+  version "0.11.0"
   dependencies:
     fbjs "^1.0.0"
-    immutable "~3.7.4"
+    immutable "^4.0.0-rc.12"
     object-assign "^4.1.0"
 
 duplexer3@^0.1.4:
@@ -3773,6 +3773,11 @@ immutable@^3.8.2:
   version "3.8.2"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
   integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
+
+immutable@^4.0.0-rc.12:
+  version "4.0.0-rc.12"
+  resolved "https://registry.npm.taobao.org/immutable/download/immutable-4.0.0-rc.12.tgz#ca59a7e4c19ae8d9bf74a97bdf0f6e2f2a5d0217"
+  integrity sha1-ylmn5MGa6Nm/dKl73w9uLypdAhc=
 
 immutable@~3.7.4:
   version "3.7.6"
